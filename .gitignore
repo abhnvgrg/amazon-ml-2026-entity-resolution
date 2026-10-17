@@ -1,0 +1,27 @@
+# --- Competition data and everything derived from it (not redistributable) ---
+dataset/
+work/
+work/.seen_*
+output/
+submissions/
+*.tsv
+*.parquet
+*.pkl
+*.npy
+*.npz
+*.zip
+indic_dict.json
+matcher*.txt
+
+# --- Environments and build junk ---
+.venv*/
+__pycache__/
+*.pyc
+.env
+.env.*
+.DS_Store
+
+# --- Local-only files (not part of the public repo) ---
+/CLAUDE.md
+/COMMENTS.md
+/utils/validate_submission.py
